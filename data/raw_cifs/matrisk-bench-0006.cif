@@ -1,0 +1,19 @@
+data_matrisk-bench-0006
+_chemical_formula_sum 'Ni3Al'
+_cell_length_a 3.66719
+_cell_length_b 3.66719
+_cell_length_c 3.66719
+_cell_angle_alpha 90.000
+_cell_angle_beta 90.000
+_cell_angle_gamma 90.000
+_symmetry_space_group_name_H-M 'P 1'
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+  Al1 Al 0.000000 0.000000 0.000000
+  Ni2 Ni 0.000000 0.500000 0.500000
+  Ni3 Ni 0.500000 0.000000 0.500000
+  Ni4 Ni 0.500000 0.500000 0.000000

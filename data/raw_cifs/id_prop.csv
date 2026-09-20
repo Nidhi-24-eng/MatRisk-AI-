@@ -1,0 +1,11 @@
+material_id,formula,bulk_modulus,shear_modulus,formation_energy_per_atom,band_gap,fracture_toughness
+mp-iron-bcc,Fe,170.0,82.0,-0.05,0.0,50.0
+mp-austenitic-ss,Fe11Cr4Ni1,160.0,77.0,-0.12,0.0,75.0
+mp-inconel-718,Ni3Al,182.0,88.0,-0.42,0.0,85.0
+mp-titanium-hcp,Ti,110.0,44.0,-0.08,0.0,55.0
+mp-aluminum-7075,Al,76.0,26.0,-0.02,0.0,29.0
+mp-copper-structural,Cu,137.0,48.0,0.0,0.0,60.0
+mp-tungsten-carbide,WC,390.0,280.0,-0.41,0.0,15.0
+matrisk-bench-0001,Cu,154.26,51.42,-0.036,0.0,56.18
+matrisk-bench-0002,Cu,119.72,43.41,-0.047,0.0,57.3
+matrisk-bench-0003,Al,74.62,25.92,0.0001,0.0,28.63
