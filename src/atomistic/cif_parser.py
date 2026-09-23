@@ -71,9 +71,9 @@ DEFAULT_ELEM = [0, 1.50, 140, 4]
 
 
 class GaussianRBFExpansion:
-    """Expands interatomic scalar distances into Gaussian Radial Basis Functions."""
+    """Expands interatomic scalar distances into Gaussian Radial Basis Functions across 64 center bins."""
 
-    def __init__(self, dmin: float = 0.0, dmax: float = 8.0, num_steps: int = 50, var: Optional[float] = None):
+    def __init__(self, dmin: float = 0.0, dmax: float = 8.0, num_steps: int = 64, var: Optional[float] = None):
         self.centers = np.linspace(dmin, dmax, num_steps)
         if var is None:
             self.gamma = 1.0 / ((self.centers[1] - self.centers[0]) ** 2)
@@ -182,7 +182,7 @@ def parse_cif_text(cif_text: str) -> Dict[str, Any]:
     }
 
 
-def build_crystal_graph(cif_path: Path, cutoff: float = 8.0, rbf_steps: int = 50) -> Optional[Data]:
+def build_crystal_graph(cif_path: Path, cutoff: float = 8.0, rbf_steps: int = 64) -> Optional[Data]:
     """
     Constructs a PyG graph from CIF with periodic boundary conditions.
     Edges represent interatomic pairs within cutoff radius (default 8.0 Å).

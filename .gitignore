@@ -41,6 +41,9 @@ venv*/
 # Streamlit
 .streamlit/
 
+# Testing
+.pytest_cache/
+
 # OS Specific
 Thumbs.db
 Desktop.ini
