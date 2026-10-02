@@ -1,1 +1,1 @@
-"""Degradation mechanics and stochastic SDE module."""
+# MatRisk AI - Microstructural Degradation & Stochastic SDE Engine

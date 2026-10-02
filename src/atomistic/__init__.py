@@ -1,1 +1,1 @@
-"""Atomistic processing and crystal graph module."""
+# MatRisk AI - Atomistic Physics & DA-CGCNN Engine

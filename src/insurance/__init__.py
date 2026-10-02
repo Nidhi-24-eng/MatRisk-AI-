@@ -1,1 +1,1 @@
-"""Actuarial catastrophe pricing and ESG resilience module."""
+# MatRisk AI - Actuarial Insurance EVT & ESG Resilience Engine
